@@ -17,7 +17,7 @@ namespace ConsoleApp
             Console.WriteLine(money.GetMoney());
             var credit = new CreditCard.CreditCard(500);
             Console.WriteLine(credit.GetSumCreditCard());
-            var bcard = new BusinessCard.BusinessCard("Iowlit");
+            var bcard = new BusinessCard.BusinessCard("Ar1k");
             Console.WriteLine(bcard.FindOutWhose());
         }
     }
