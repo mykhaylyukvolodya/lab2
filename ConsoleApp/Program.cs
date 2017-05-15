@@ -19,6 +19,7 @@ namespace ConsoleApp
             Console.WriteLine(credit.GetSumCreditCard());
             var bcard = new BusinessCard.BusinessCard("Ar1k");
             Console.WriteLine(bcard.FindOutWhose());
+            Console.WriteLine("This App is work!");
         }
     }
 }
